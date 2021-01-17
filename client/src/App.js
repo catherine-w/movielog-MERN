@@ -5,7 +5,7 @@ import { useDispatch } from 'react-redux';
 import {getPosts } from './actions/posts';
 import Posts from './components/Posts/Posts';
 import Form from './components/Form/Form';
-import mern from './images/mern.png';
+import movie from './images/movie.jpg';
 import useStyles from './styles';
 
 const App = () => {
@@ -21,7 +21,7 @@ const App = () => {
         <Container maxwidth="lg">
             <AppBar className={classes.appBar} position="static" color="inherit">
                 <Typography className={classes.heading} variant="h2" align="center">Movie Log</Typography>
-                <img className={classes.image} src={mern} alt="Movie List" height="60"/>
+                <img className={classes.image} src={movie} alt="Movie List" height="60"/>
             </AppBar>
             <Grow in>
                 <Container>
